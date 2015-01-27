@@ -1,0 +1,141 @@
+.padded {
+    width: 310px;
+    height: 174px;
+    position: relative;
+    top: -174px;
+    z-index: 5;
+}
+
+.outer {
+    padding: 4px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    width: 310px;
+    height: 174px;
+    background-color: #FFFFFF;
+    float: left;
+    margin: 10px;
+}
+
+.img {
+    position: relative;
+    z-index: 10;
+}
+
+.copy {
+    font-family: Arial, Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: .5;
+    font-weight: normal;
+}
+
+#container {
+    width: 1050px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #c6e4fe;
+    margin: 0px;
+    background-image: url(../imgs/stepbot-bg.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+#header {
+    height: 135px;
+    background-image: url(transparent.png);
+}
+
+#logo {
+    margin-top: -33px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: normal;
+    opacity: .9;
+    letter-spacing: 2px;
+    float: left;
+    width: 150px;
+}
+
+.nav a {
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: normal;
+    opacity: .6;
+    letter-spacing: 2px;
+    float: left;
+    width: 150px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: normal;
+    opacity: 1;
+    letter-spacing: 2px;
+    float: left;
+    width: 150px;
+    text-decoration: none;
+}
+
+#nav-container {
+    position: relative;
+    left: 50%;
+    margin-left: -385px;
+    margin-top: -35px;
+    margin-bottom: 30px;
+}
+
+.video-js {
+    background-color: transparent;
+    !important; opacity: 1;
+}
+
+#twitter {
+    border-radius: 8px;
+    width: 350px;
+    margin-top: -20px;
+}
+
+.vjs-default-skin .vjs-big-play-button {
+    right: .5em !important;
+    left: auto !important;
+}
+      
+#submit_form{
+	float:left; 
+	margin-top:2px; 
+	margin-right:10px; 
+	margin-left:160px;
+}   
+
+#main{
+	position:absolute; 
+	left:30%; 
+	margin-left:-325px;
+	top: 40%; 
+	margin-top:-211px;
+}   
+
+#video_container{
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+}   
+
+#email{
+	width:300px; 
+	height:45px; 
+	border-radius:6px; 
+	padding:8px; 
+	font-size:14px;
+	font-weight:bold;
+}
+
+#beta{
+	float:left;
+}
