@@ -1,3 +1,4 @@
+<?php include('functions.php'); ?>
 <html>
    <head>
       <title>StepBOT</title>
